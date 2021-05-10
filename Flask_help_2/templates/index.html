@@ -4,8 +4,16 @@
         <title>Base</title>
     </head>
     <body>
-        {% if template_variable == "Hello" %}
-            <p>{{ template_variable }}, World!</p> 
-        {% endif %}
+        <h1>for 기본 활용</h1>
+        <hr>
+        <ul>
+            {% for x in range(10) %}
+                <li>{{ x }}</li>
+            {% endfor%}
+        </ul>
+        {% extends "base.html"  %}
+        {% block content %}
+            <p>자식문서에 포함될 내용</p>
+        {% endblock %}
     </body>
 </html>

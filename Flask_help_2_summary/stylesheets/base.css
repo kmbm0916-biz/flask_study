@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+.main_btn {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+/* 안 먹는 듯 */
