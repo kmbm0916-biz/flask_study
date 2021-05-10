@@ -1,6 +1,4 @@
 # flask_study
-
-## Python Flask
  - For Python Flask study.
 ### Language
 <span><img src="https://img.shields.io/badge/Python-3776AB?logo=Python&logoColor=white"></span>
